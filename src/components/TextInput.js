@@ -36,6 +36,7 @@ type RenderProps = {
   underlineColorAndroid: string,
   style: any,
   inputStyle: any,
+  underlineStyle: any,
   placeholderStyle: any,
   multiline?: boolean,
   numberOfLines?: number,
@@ -117,6 +118,7 @@ type Props = {
   style?: any,
   inputStyle?: any,
   placeholderStyle?: any,
+  underlineStyle?: any,
   /**
    * @optional
    */
@@ -535,6 +537,7 @@ class TextInput extends React.Component<Props, State> {
           <Animated.View
             style={[
               styles.underline,
+              this.props.underlineStyle,
               {
                 backgroundColor: error
                   ? colors.error
@@ -597,6 +600,7 @@ class TextInput extends React.Component<Props, State> {
             <AnimatedText
               style={[
                 styles.placeholder,
+                this.props.placeholderStyle,
                 mode === 'outlined'
                   ? styles.placeholderOutlined
                   : styles.placeholderFlat,
