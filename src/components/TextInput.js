@@ -35,6 +35,7 @@ type RenderProps = {
   onBlur: () => mixed,
   underlineColorAndroid: string,
   style: any,
+  inputStyle: any,
   multiline?: boolean,
   numberOfLines?: number,
   value?: string,
@@ -113,6 +114,7 @@ type Props = {
    */
   value?: string,
   style?: any,
+  inputStyle?: any,
   /**
    * @optional
    */
@@ -623,6 +625,7 @@ class TextInput extends React.Component<Props, State> {
           underlineColorAndroid: 'transparent',
           style: [
             styles.input,
+            this.props.inputStyle,
             mode === 'outlined'
               ? styles.inputOutlined
               : this.props.label
