@@ -36,6 +36,7 @@ type RenderProps = {
   underlineColorAndroid: string,
   style: any,
   inputStyle: any,
+  placeholderStyle: any,
   multiline?: boolean,
   numberOfLines?: number,
   value?: string,
@@ -115,6 +116,7 @@ type Props = {
   value?: string,
   style?: any,
   inputStyle?: any,
+  placeholderStyle?: any,
   /**
    * @optional
    */
@@ -575,6 +577,7 @@ class TextInput extends React.Component<Props, State> {
               }
               style={[
                 styles.placeholder,
+                this.props.placeholderStyle,
                 mode === 'outlined'
                   ? styles.placeholderOutlined
                   : styles.placeholderFlat,
