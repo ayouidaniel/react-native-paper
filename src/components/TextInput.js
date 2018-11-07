@@ -403,7 +403,7 @@ class TextInput extends React.Component<Props, State> {
         .rgb()
         .string();
       placeholderColor = outlineColor = colors.disabled;
-      underlineColorCustom = 'transparent';
+      underlineColorCustom = colors.disabled;
     } else {
       inputTextColor = colors.text;
       activeColor = error ? colors.error : colors.primary;
