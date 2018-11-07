@@ -321,10 +321,6 @@ class TextInput extends React.Component<Props, State> {
   };
 
   _handleBlur = (...args) => {
-    if (this.props.disabled) {
-      return;
-    }
-
     this.setState({ focused: false });
 
     if (this.props.onBlur) {
