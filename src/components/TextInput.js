@@ -19,7 +19,7 @@ const AnimatedText = Animated.createAnimatedComponent(Text);
 const MINIMIZED_LABEL_Y_OFFSET = -12;
 const OUTLINE_MINIMIZED_LABEL_Y_OFFSET = -29;
 const MAXIMIZED_LABEL_FONT_SIZE = 17;
-const MINIMIZED_LABEL_FONT_SIZE = 12;
+const MINIMIZED_LABEL_FONT_SIZE = 13.6;
 const LABEL_WIGGLE_X_OFFSET = 4;
 const FOCUS_ANIMATION_DURATION = 150;
 const BLUR_ANIMATION_DURATION = 180;
@@ -465,7 +465,7 @@ class TextInput extends React.Component<Props, State> {
           translateX: this.state.labeled.interpolate({
             inputRange: [0, 1],
             outputRange: [
-              -1 * (this.state.labelLayout.width / 4.8),
+              -1 * (this.state.labelLayout.width / 6),
               0,
             ],
           }),
