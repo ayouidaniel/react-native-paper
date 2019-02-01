@@ -465,7 +465,9 @@ class TextInput extends React.Component<Props, State> {
           translateX: this.state.labeled.interpolate({
             inputRange: [0, 1],
             outputRange: [
-              -1 * (this.state.labelLayout.width / 6),
+              (I18nManager.isRTL ? 1 : -1) *
+                (1 - MINIMIZED_LABEL_FONT_SIZE / MAXIMIZED_LABEL_FONT_SIZE) *
+                (this.state.labelLayout.width / 1.6),
               0,
             ],
           }),
