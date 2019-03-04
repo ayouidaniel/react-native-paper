@@ -41,6 +41,7 @@ type RenderProps = {
   multiline?: boolean,
   numberOfLines?: number,
   value?: string,
+
 };
 
 type Props = {
@@ -377,6 +378,7 @@ class TextInput extends React.Component<Props, State> {
       underlineColor,
       style,
       theme,
+      selectionColor,
       render,
       ...rest
     } = this.props;
@@ -623,7 +625,7 @@ class TextInput extends React.Component<Props, State> {
           placeholder: label ? this.state.placeholder : this.props.placeholder,
           placeholderTextColor: placeholderColor,
           editable: !disabled,
-          selectionColor: activeColor,
+          selectionColor: selectionColor,
           onFocus: this._handleFocus,
           onBlur: this._handleBlur,
           underlineColorAndroid: 'transparent',
