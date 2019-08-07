@@ -4,6 +4,22 @@ import * as React from 'react';
 import renderer from 'react-test-renderer';
 import BottomNavigation from '../BottomNavigation';
 
+jest.useFakeTimers();
+
+jest.mock('Animated', () => {
+  const ActualAnimated = jest.requireActual('Animated');
+
+  return {
+    ...ActualAnimated,
+    timing: (value, config) => ({
+      start: callback => {
+        value.setValue(config.toValue);
+        callback && callback({ finished: true });
+      },
+    }),
+  };
+});
+
 const icons = [
   '3d-rotation',
   'ac-unit',

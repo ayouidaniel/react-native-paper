@@ -42,6 +42,7 @@ yarn-error.log
 # jest
 #
 coverage/
+cache/jest/
 
 # BUCK
 #
@@ -53,3 +54,7 @@ android/keystores/debug.keystore
 # Build
 #
 dist/
+
+# Release
+#
+CHANGELOG.md

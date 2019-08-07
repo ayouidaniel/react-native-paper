@@ -2,8 +2,7 @@
 
 exports[`renders checked Checkbox with color 1`] = `
 <View
-  accessibilityComponentType="button"
-  accessibilityTraits="button"
+  accessibilityRole="button"
   accessible={true}
   isTVSelectable={true}
   onResponderGrant={[Function]}
@@ -13,10 +12,15 @@ exports[`renders checked Checkbox with color 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 18,
-      "padding": 6,
-    }
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 18,
+        "padding": 6,
+      },
+    ]
   }
 >
   <View
@@ -28,9 +32,7 @@ exports[`renders checked Checkbox with color 1`] = `
   >
     <Text
       accessibilityElementsHidden={true}
-      accessible={true}
       allowFontScaling={false}
-      ellipsizeMode="tail"
       importantForAccessibility="no-hide-descendants"
       pointerEvents="none"
       style={
@@ -56,6 +58,7 @@ exports[`renders checked Checkbox with color 1`] = `
             "fontStyle": "normal",
             "fontWeight": "normal",
           },
+          Object {},
         ]
       }
     >
@@ -67,8 +70,7 @@ exports[`renders checked Checkbox with color 1`] = `
 
 exports[`renders checked Checkbox with onPress 1`] = `
 <View
-  accessibilityComponentType="button"
-  accessibilityTraits="button"
+  accessibilityRole="button"
   accessible={true}
   isTVSelectable={true}
   onResponderGrant={[Function]}
@@ -78,10 +80,15 @@ exports[`renders checked Checkbox with onPress 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 18,
-      "padding": 6,
-    }
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 18,
+        "padding": 6,
+      },
+    ]
   }
 >
   <View
@@ -93,9 +100,7 @@ exports[`renders checked Checkbox with onPress 1`] = `
   >
     <Text
       accessibilityElementsHidden={true}
-      accessible={true}
       allowFontScaling={false}
-      ellipsizeMode="tail"
       importantForAccessibility="no-hide-descendants"
       pointerEvents="none"
       style={
@@ -121,6 +126,7 @@ exports[`renders checked Checkbox with onPress 1`] = `
             "fontStyle": "normal",
             "fontWeight": "normal",
           },
+          Object {},
         ]
       }
     >
@@ -132,8 +138,7 @@ exports[`renders checked Checkbox with onPress 1`] = `
 
 exports[`renders indeterminate Checkbox 1`] = `
 <View
-  accessibilityComponentType="button"
-  accessibilityTraits="button"
+  accessibilityRole="button"
   accessible={true}
   isTVSelectable={true}
   onResponderGrant={[Function]}
@@ -143,10 +148,15 @@ exports[`renders indeterminate Checkbox 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 18,
-      "padding": 6,
-    }
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 18,
+        "padding": 6,
+      },
+    ]
   }
 >
   <View
@@ -158,9 +168,7 @@ exports[`renders indeterminate Checkbox 1`] = `
   >
     <Text
       accessibilityElementsHidden={true}
-      accessible={true}
       allowFontScaling={false}
-      ellipsizeMode="tail"
       importantForAccessibility="no-hide-descendants"
       pointerEvents="none"
       style={
@@ -186,6 +194,7 @@ exports[`renders indeterminate Checkbox 1`] = `
             "fontStyle": "normal",
             "fontWeight": "normal",
           },
+          Object {},
         ]
       }
     >
@@ -197,8 +206,7 @@ exports[`renders indeterminate Checkbox 1`] = `
 
 exports[`renders indeterminate Checkbox with color 1`] = `
 <View
-  accessibilityComponentType="button"
-  accessibilityTraits="button"
+  accessibilityRole="button"
   accessible={true}
   isTVSelectable={true}
   onResponderGrant={[Function]}
@@ -208,10 +216,15 @@ exports[`renders indeterminate Checkbox with color 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 18,
-      "padding": 6,
-    }
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 18,
+        "padding": 6,
+      },
+    ]
   }
 >
   <View
@@ -223,9 +236,7 @@ exports[`renders indeterminate Checkbox with color 1`] = `
   >
     <Text
       accessibilityElementsHidden={true}
-      accessible={true}
       allowFontScaling={false}
-      ellipsizeMode="tail"
       importantForAccessibility="no-hide-descendants"
       pointerEvents="none"
       style={
@@ -251,6 +262,7 @@ exports[`renders indeterminate Checkbox with color 1`] = `
             "fontStyle": "normal",
             "fontWeight": "normal",
           },
+          Object {},
         ]
       }
     >
@@ -262,8 +274,7 @@ exports[`renders indeterminate Checkbox with color 1`] = `
 
 exports[`renders unchecked Checkbox with color 1`] = `
 <View
-  accessibilityComponentType="button"
-  accessibilityTraits="button"
+  accessibilityRole="button"
   accessible={true}
   isTVSelectable={true}
   onResponderGrant={[Function]}
@@ -273,10 +284,15 @@ exports[`renders unchecked Checkbox with color 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 18,
-      "padding": 6,
-    }
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 18,
+        "padding": 6,
+      },
+    ]
   }
 >
   <View
@@ -288,9 +304,7 @@ exports[`renders unchecked Checkbox with color 1`] = `
   >
     <Text
       accessibilityElementsHidden={true}
-      accessible={true}
       allowFontScaling={false}
-      ellipsizeMode="tail"
       importantForAccessibility="no-hide-descendants"
       pointerEvents="none"
       style={
@@ -316,6 +330,7 @@ exports[`renders unchecked Checkbox with color 1`] = `
             "fontStyle": "normal",
             "fontWeight": "normal",
           },
+          Object {},
         ]
       }
     >
@@ -327,8 +342,7 @@ exports[`renders unchecked Checkbox with color 1`] = `
 
 exports[`renders unchecked Checkbox with onPress 1`] = `
 <View
-  accessibilityComponentType="button"
-  accessibilityTraits="button"
+  accessibilityRole="button"
   accessible={true}
   isTVSelectable={true}
   onResponderGrant={[Function]}
@@ -338,10 +352,15 @@ exports[`renders unchecked Checkbox with onPress 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 18,
-      "padding": 6,
-    }
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 18,
+        "padding": 6,
+      },
+    ]
   }
 >
   <View
@@ -353,9 +372,7 @@ exports[`renders unchecked Checkbox with onPress 1`] = `
   >
     <Text
       accessibilityElementsHidden={true}
-      accessible={true}
       allowFontScaling={false}
-      ellipsizeMode="tail"
       importantForAccessibility="no-hide-descendants"
       pointerEvents="none"
       style={
@@ -381,6 +398,7 @@ exports[`renders unchecked Checkbox with onPress 1`] = `
             "fontStyle": "normal",
             "fontWeight": "normal",
           },
+          Object {},
         ]
       }
     >
